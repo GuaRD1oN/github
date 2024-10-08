@@ -1,0 +1,363 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    margin-top: 5px;
+}
+
+.location{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    cursor: none;
+}
+
+.local{
+    display: flex;
+    font-size: 20px;
+    font-family: helvetica;
+    position: absolute;
+    right: 1100px;
+    top: 18px;
+    cursor: pointer;
+}
+
+.phone{
+    display: flex;
+    position: absolute;
+    right: 600px;
+    cursor: none;
+}
+
+.nomber{
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    font-family: helvetica;
+    right: 250px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.chislo{
+    display: flex;
+    font-size: 20px;
+    font-family: helvetica;
+    position: absolute;
+    right: 430px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.inst{
+    position: absolute;
+    right: 170px;
+    cursor: pointer;
+}
+
+.vk{
+    position: absolute;
+    right: 130px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.tg{
+    position: absolute;
+    right: 90px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.shapka{
+    background: rgb(36, 167, 214);
+    width: 100%;  
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+}
+
+.text{
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: helvetica;
+    top: 100px;
+    cursor: pointer;
+}
+
+#katalog{
+    position: absolute;
+    left: 250px;
+    top:  95px;
+}
+
+#collection{
+    position: absolute;
+    left: 450px;
+    top: 95px;
+}
+
+#oplata{
+    position: absolute;
+    right: 550px;
+    top: 95px;
+}
+
+#contact{
+    position: absolute;
+    right: 350px;
+    top: 95px;
+}
+
+.img_shapka{
+    position: absolute;
+    top: 90px;
+    right: 120px;
+}
+
+.like{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.lupa{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.logo{
+    margin-left: 700px;
+    margin-top: 75px;
+}
+
+#main{
+    background-color: rgb(3, 77, 8);
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    z-index: -1;
+}
+
+.img_shop{
+    position: absolute;
+    cursor: pointer;       
+}
+
+#sp_man{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#wolf{
+    position: absolute;
+    width: 200  px;
+    height: 200px;
+    left: 500px;
+    top: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#wolfenstein{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#half{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1300px;
+    top: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+    
+}
+
+#text-1{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Impact;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+#sp{
+    position: absolute;
+    top: 470px;
+    left: 170px;
+}
+
+#Wolf{
+    position: absolute;
+    top: 470px;
+    left: 550px;
+}
+
+#Wolfenstein{
+    position: absolute;
+    top: 470px;
+    left: 940px;
+}
+
+#Half{
+    position: absolute;
+    right: 240px;
+    top: 470px;
+}
+
+.img_shop2{
+    position: absolute;
+    cursor: pointer;
+}
+
+#call{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 900px;
+    top: 450px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#call2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 500px;
+    top: 450px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#mass{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    left: 100px;
+    top: 450px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#back{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1300px;
+    top: 450px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#text-2{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Impact;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}
+
+#Call{
+    position: absolute;
+    top: 830px;
+    left: 940px;
+}
+
+#Call2{
+    position: absolute;
+    top: 830px;
+    left: 525px;
+}
+
+
+#Mass{
+    position: absolute;
+    top: 830px;
+    left: 170px;
+}
+
+#Back{
+    position: absolute;
+    top: 830px;
+    left: 1340px;
+}
+footer {
+    position: relative;
+    bottom: -800px;
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}    
+
+.footer-container {
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section .social a {
+    margin-right: 10px;
+}
+
+.footer-section .social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 12px;
+}
